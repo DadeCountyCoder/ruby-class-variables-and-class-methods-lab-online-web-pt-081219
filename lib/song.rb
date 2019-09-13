@@ -1,11 +1,7 @@
 class Song
   attr_accessor :name, :artist, :genre
-  
-  @@count = 0
-  @@artists = []
-  @@genres = []
-  
-  def initialize(name, artist, genre)
+  #class_variables they belong to the class(ex.mother & kids)(class properties)
+    @@count = 0
     @name = name
     @artist = artist
     @genre = genre
